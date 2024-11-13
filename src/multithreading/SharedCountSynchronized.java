@@ -1,24 +1,28 @@
 package multithreading;
 
-import java.util.Date;
-import java.util.concurrent.atomic.AtomicInteger;
 
-public class SharedCount {
-    private AtomicInteger count = new AtomicInteger(0); ;
+import java.util.Date;
+
+
+public class SharedCountSynchronized{
+    private int count = 0;
 
     public int getIncrement() {
-        return count.get();
+        return count;
     }
 
 
 
     public  void incrementValue(){
-        count.getAndIncrement();
+        System.out.println("no more block of method now");
+        synchronized (this) {
+            count++;
+        }
     }
 }
 
 
-class RaceCondition{
+class RaceConditionSynchronized{
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -50,9 +54,11 @@ class RaceCondition{
         }).start();
 
         int value = sharedCount.getIncrement();
-        Thread.sleep(1000);
+      //  Thread.sleep(1000);
         System.out.println("value is " + sharedCount.getIncrement());
         System.out.println(Thread.currentThread().getName());
         System.out.println(new Date().getTime());
     }
 }
+
+
