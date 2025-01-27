@@ -39,6 +39,9 @@ public class DaemonThread {
 
         };
 
+
+
+
         Thread thread1 = new Thread(runnable,"RUNNABLE");
         thread1.setDaemon(true);
         thread1.start();

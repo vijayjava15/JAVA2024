@@ -14,7 +14,7 @@ public class SharedCountSynchronized{
 
 
     public  void incrementValue(){
-        System.out.println("no more block of method now");
+        //System.out.println("no more block of method now");
         synchronized (this) {
             count++;
         }
@@ -27,7 +27,7 @@ class RaceConditionSynchronized{
     public static void main(String[] args) throws InterruptedException {
 
 
-        SharedCount sharedCount = new SharedCount();
+        SharedCountSynchronized sharedCount = new SharedCountSynchronized();
 
         new Thread(() -> {
             System.out.println("thread 1 started");
@@ -54,7 +54,7 @@ class RaceConditionSynchronized{
         }).start();
 
         int value = sharedCount.getIncrement();
-      //  Thread.sleep(1000);
+        Thread.sleep(1000);
         System.out.println("value is " + sharedCount.getIncrement());
         System.out.println(Thread.currentThread().getName());
         System.out.println(new Date().getTime());
