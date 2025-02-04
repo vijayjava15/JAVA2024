@@ -2,6 +2,7 @@ package algorithm.binarySearch;
 
 import algorithm.Utility;
 
+import java.awt.*;
 import java.util.Scanner;
 
 public class BinarySearch extends Utility {
@@ -29,5 +30,7 @@ public class BinarySearch extends Utility {
           }
         }
     }
+
+    Rectangle rectangle;
 
 }

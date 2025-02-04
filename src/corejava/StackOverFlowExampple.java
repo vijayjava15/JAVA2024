@@ -21,6 +21,8 @@ public class StackOverFlowExampple {
         /* so wht makes a stockoverFLoe exp*/
         var value = 3;
         addUntilErrorComes(value);
+
+        exampleClass0 exampleClass0 = new exampleClass0(new exampleClass1());
     }
 
 
