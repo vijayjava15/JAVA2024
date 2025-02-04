@@ -120,3 +120,34 @@ Final Thoughts
 
 This roadmap ensures deep expertise in Java, SQL, Microservices, DSA, DevOps, AI/ML, and System Design—with hands-on practice and tough assignments every day.
 
+
+
+
+
+
+
+
+
+
+
+
+Java: Effective Java by Joshua Bloch
+Design Patterns: Head First Design Patterns
+DBMS: Database System Concepts by Silberschatz
+Spring Boot: Official Documentation + Spring in Action
+DevOps: The Phoenix Project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
