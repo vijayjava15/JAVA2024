@@ -14,6 +14,12 @@ Here is a **detailed roadmap to becoming an AI Engineer**, covering everything f
    - Eigenvalues & Eigenvectors  
    - Singular Value Decomposition (SVD)  
 
+✅ Lecture 1–4: Vectors, Matrices, Linear Systems
+✅ Lecture 5–7: Column Space, Null Space, Rank
+✅ Lecture 8–10: Orthogonality, Least Squares, Projections (used in PCA, Dimensionality Reduction)
+✅ Lecture 11–14: Determinants, Eigenvalues & Eigenvectors (important for ML & Neural Networks)
+✅ Lecture 15–16: Singular Value Decomposition (SVD) (used in recommendation systems)
+
 2. **Probability & Statistics** (for Data Science, ML)  
    - Bayes Theorem  
    - Probability Distributions (Normal, Poisson, Binomial)  
