@@ -5,3 +5,37 @@ https://github.com/akullpp/awesome-java?tab=readme-ov-file#cli
 
 
 https://github.com/AlanBinu007/Spring-Boot-Advanced-Projects/blob/main/springboot-multiple-datasources/src/main/java/net/alanbinu/springboot/springbootmultipledatasources/config/OrdersDataSourceConfig.java
+
+
+
+As an intermediate Java developer focusing on backend development and SQL integration, exploring well-regarded GitHub repositories can significantly enhance your understanding and skills. Here are some repositories that align with your learning objectives:
+
+1. *Java Design Patterns*: This repository offers a comprehensive collection of design patterns implemented in Java, providing insights into best practices and efficient code structuring.
+
+   - GitHub: [https://github.com/iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)
+
+2. *Advanced Java*: Tailored for experienced developers, this repository delves into advanced topics such as high concurrency architecture, distributed systems, microservices, and large-scale data processing.
+
+   - GitHub: [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
+
+3. *The Algorithms - Java*: Ideal for enhancing your understanding of data structures and algorithms, this repository provides implementations in Java, which are crucial for efficient backend development.
+
+   - GitHub: [https://github.com/TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
+
+4. *Awesome Java*: This curated list includes frameworks, libraries, and tools across various domains, including backend development and database interaction, serving as a valuable reference for Java developers.
+
+   - GitHub: [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
+
+5. *Java-Backend Roadmap*: This repository provides a structured roadmap for learning Java backend development, encompassing core Java concepts, Spring Framework, REST APIs, and more.
+
+   - GitHub: [https://github.com/Abanoub-Asaad/Java-Backend](https://github.com/Abanoub-Asaad/Java-Backend)
+
+6. *MyBatis*: For integrating SQL in Java applications, MyBatis is a persistence framework that facilitates mapping between SQL databases and Java objects, offering a balance between direct SQL execution and object-relational mapping.
+
+   - GitHub: [https://github.com/mybatis/mybatis-3](https://github.com/mybatis/mybatis-3)
+
+7. *Ebean ORM*: Ebean is an object-relational mapping tool designed to be simpler than JPA, providing features like session-less architecture and support for Java Generics, which can be beneficial for database interactions in backend development.
+
+   - GitHub: [https://github.com/ebean-orm/ebean](https://github.com/ebean-orm/ebean)
+
+By studying these repositories, you can gain practical insights into effective backend development practices, design patterns, and efficient database integration using Java.
