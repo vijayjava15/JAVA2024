@@ -1,0 +1,117 @@
+Here are some deep interview questions based on **Spring Core**, **Beans**, and **AOP** (Aspect-Oriented Programming) that can help you prepare for an in-depth interview:
+
+### **Spring Core**
+
+1. **What is the Spring IoC (Inversion of Control) container? How does it work?**
+   - Can you explain the different types of containers in Spring (e.g., BeanFactory vs ApplicationContext)?
+   - What is the role of `ApplicationContext` in the Spring framework?
+
+2. **What is the difference between `@Component`, `@Service`, `@Repository`, and `@Controller` annotations?**
+   - When would you use each of them? How are they related to `@Component`?
+   - How do these annotations relate to the role of a class in a Spring application (e.g., service layer vs persistence layer)?
+
+3. **What is Autowiring in Spring? Explain different autowiring modes (`@Autowired`, `@Inject`, `@Resource`).**
+   - What are the differences between `@Autowired` and `@Inject`? How does `@Autowired` work behind the scenes?
+   - What happens if Spring cannot find a matching bean during autowiring?
+
+4. **What is Bean Scoping in Spring? Explain the difference between singleton, prototype, request, session, and application scopes.**
+   - What is the default scope of a bean in Spring, and how can you change it?
+   - How does the bean lifecycle differ across various scopes?
+
+5. **Explain the concept of BeanPostProcessor and its methods. How is it used?**
+   - What is the difference between `postProcessBeforeInitialization` and `postProcessAfterInitialization` methods?
+   - Can you give a real-world example of using a `BeanPostProcessor`?
+
+6. **What is a Spring Bean Definition? How does Spring manage beans internally?**
+   - How does Spring manage bean definitions and their lifecycle in the context of `BeanFactory` and `ApplicationContext`?
+   - What are the different types of bean definitions (e.g., XML, annotation-based, Java configuration)?
+
+7. **What is `@Qualifier` in Spring and how does it work with autowiring?**
+   - How would you resolve the ambiguity when multiple beans of the same type are available in the context?
+
+8. **How do you manage circular dependencies in Spring?**
+   - Can Spring resolve circular dependencies between beans? If so, how?
+   - What happens if circular dependencies occur between singleton beans?
+
+9. **What is the `@Primary` annotation used for in Spring?**
+   - How does `@Primary` help in resolving ambiguity when multiple beans of the same type are available?
+
+10. **What is Spring's `@Value` annotation, and how is it used to inject properties into beans?**
+    - What types of values can be injected using `@Value` (e.g., properties files, environment variables)?
+
+---
+
+### **Spring Beans Lifecycle**
+
+1. **Explain the lifecycle of a Spring Bean, from creation to destruction.**
+   - What is the role of `@PostConstruct` and `@PreDestroy` annotations in the lifecycle?
+   - How do you customize the initialization and destruction of beans?
+   - How does `init-method` and `destroy-method` work in XML configuration?
+
+2. **What is the difference between the `init-method` and `@PostConstruct`?**
+   - When would you use `@PostConstruct` vs. `init-method` in an XML configuration?
+
+3. **Explain the process of bean instantiation in Spring, including bean creation, initialization, and destruction.**
+   - How does Spring handle bean creation and injection when using constructor-based vs. setter-based dependency injection?
+
+---
+
+### **Spring AOP (Aspect-Oriented Programming)**
+
+1. **What is AOP in Spring, and how does it differ from OOP (Object-Oriented Programming)?**
+   - How does AOP help in separating concerns like logging, transactions, and security from business logic?
+   - Can you explain how cross-cutting concerns are handled in Spring?
+
+2. **What are the main AOP concepts in Spring (Aspect, Advice, Joinpoint, Pointcut, Weaving)?**
+   - Can you explain what `Advice`, `Joinpoint`, `Pointcut`, and `Weaving` mean in the context of AOP?
+   - What is the difference between `@Before`, `@After`, `@Around`, `@AfterReturning`, and `@AfterThrowing` advices?
+
+3. **What is the difference between proxy-based AOP and aspect-based AOP in Spring?**
+   - How does Spring implement AOP internally? (e.g., using JDK dynamic proxies vs. CGLIB proxies)
+   - What are the limitations of proxy-based AOP?
+
+4. **Explain the use of `@Aspect` and how to create an Aspect in Spring AOP.**
+   - Can you give an example of creating an aspect for logging or security purposes?
+
+5. **How do you define a pointcut expression in Spring AOP?**
+   - Can you explain how pointcut expressions like `execution(* methodName(..))` work?
+   - How would you create complex pointcuts with logical operators like `&&`, `||`, and `!`?
+
+6. **Explain the concept of `@Around` advice and how it works in Spring AOP.**
+   - How is `@Around` different from other types of advice in AOP? Provide an example of when to use `@Around`.
+
+7. **What is method interception in Spring AOP, and how is it related to proxies?**
+   - What are the pros and cons of using method interception in AOP for transactional management?
+
+8. **How does Spring AOP work with annotations, and how does it differ from XML-based configuration?**
+   - Can you show examples of using annotations to define aspects and advices?
+
+9. **How do you configure Spring AOP in a Spring Boot application?**
+   - How would you set up an Aspect for logging or auditing in a Spring Boot application using annotations?
+
+10. **Can you explain the limitations of Spring AOP?**
+    - What are some scenarios where Spring AOP might not be suitable (e.g., final methods or private methods)?
+
+---
+
+### **Advanced Spring AOP Topics**
+
+1. **Explain the concept of "advice chaining" in Spring AOP.**
+   - Can multiple advices be applied to the same method? If so, what is the order of execution?
+
+2. **How do you use AOP for transaction management in Spring?**
+   - What is the role of `@Transactional` annotation and how does Spring manage transactions using AOP?
+
+3. **How does Spring AOP handle exception handling with `@AfterThrowing`?**
+   - What are the use cases for handling exceptions with AOP in a Spring application?
+
+4. **What is the difference between AspectJ and Spring AOP?**
+   - How does AspectJ provide more advanced AOP capabilities compared to Spring AOP?
+   - When would you use AspectJ over Spring AOP?
+
+5. **How does Spring AOP handle `JoinPoint` and `ProceedingJoinPoint` in `@Around` advice?**
+   - What is the difference between `ProceedingJoinPoint` and `JoinPoint`?
+
+---
+
+These questions cover both the fundamentals and advanced topics in Spring Core, Beans, and AOP, and they should help you prepare for a deep and technical interview. Let me know if you'd like more details on any specific question!
