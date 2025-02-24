@@ -1,6 +1,6 @@
-package algorithm.binarySearch;
+package DSA.algorithm.binarySearch;
 
-import algorithm.Utility;
+import DSA.Utility;
 
 public class BinarySearch0 extends Utility {
 

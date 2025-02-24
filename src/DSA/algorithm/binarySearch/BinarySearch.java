@@ -1,6 +1,6 @@
-package algorithm.binarySearch;
+package DSA.algorithm.binarySearch;
 
-import algorithm.Utility;
+import DSA.Utility;
 
 import java.awt.*;
 import java.util.Scanner;
