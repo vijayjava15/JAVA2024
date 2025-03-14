@@ -18,4 +18,8 @@ https://github.com/vijayjava15/projectspring/tree/master/urlShortner/urlShortner
 
 
 
-7) started learning java socket programming and tcp concepts ))))
+7) started learning java socket programming and tcp concepts )))) ----------------> PENDING
+
+8) * Deep dive into **Entity Lifecycle** — State transitions, `persist()`, `merge()`, `detach()`, `remove()`.
+  - **Problem:** Build a state tracker that logs every entity state change automatically.
+:** Understand **Persistence Context** & Flushing Strategies.
